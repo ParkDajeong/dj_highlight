@@ -33,4 +33,10 @@ $(function() {
     focusOutMenu();
   });
   
+  // profile slider
+  $(".profile__slide").slick({
+    autoplay: false,
+    pauseOnHover: false,
+    pauseOnFocus: false,
+  });
 });
