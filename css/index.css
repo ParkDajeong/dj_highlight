@@ -1,0 +1,98 @@
+/* ============ Reset CSS ============ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: normal;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* ============ common CSS ============ */
+.blind {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  color: transparent;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+.section--default {
+  width: 100%;
+  height: 100vh;
+}
+
+/* ============ home ============ */
+.home__slide-wrap {
+  position: relative;
+}
+.home-slide {
+  /* slick dots */
+}
+.home-slide__box {
+  width: 100%;
+  height: 100vh;
+}
+.home-slide__item1 {
+  background-color: mediumseagreen;
+}
+.home-slide__item2 {
+  background-color: lightsteelblue;
+}
+.home-slide__item3 {
+  background-color: lightpink;
+}
+.home-slide__item4 {
+  background-color: lightgrey;
+}
+.home-slide__item5 {
+  background-color: lightgoldenrodyellow;
+}
+.home-slide .slick-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.home-slide .slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+.home-slide .slick-dots li.slick-active button {
+  width: 50px;
+}
+.home-slide .slick-dots li button {
+  background-color: white;
+  width: 30px;
+  height: 5px;
+  color: transparent;
+  text-indent: -9999px;
+  transition: 0.2s;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,16 @@
+/* ============ common CSS ============ */
+.blind {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  color: transparent;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+.section--default {
+  width: 100%;
+  height: 100vh;
+}
